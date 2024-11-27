@@ -2,7 +2,7 @@
 
 ![A screenshot of highlighted WGSL](assets/example.png)
 
-WGSL language support with rich syntax highlighting. Powered by the
+WGSL language support for Zed, with rich syntax highlighting. Powered by the
 [wgsl-analyzer language server](https://github.com/wgsl-analyzer/wgsl-analyzer).
 
 Based on [Konrad Bochnia's WGSL Tree-sitter grammar](https://github.com/szebniok/tree-sitter-wgsl),
