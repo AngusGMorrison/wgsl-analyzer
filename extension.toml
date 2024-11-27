@@ -5,7 +5,7 @@ schema_version = 1
 authors = ["Angus Morrison <angus@howtocodeit.com>"]
 description = """
 WGSL language support with rich syntax highlighting. Powered by the
-wgsl-analyzer LSP. See the README for configuration.
+wgsl-analyzer language server. See the README for configuration.
 """
 
 [language_servers.wgsl-analyzer]

@@ -3,7 +3,7 @@
 ![A screenshot of highlighted WGSL](assets/example.png)
 
 WGSL language support with rich syntax highlighting. Powered by the
-[wgsl-analyzer LSP](https://github.com/wgsl-analyzer/wgsl-analyzer).
+[wgsl-analyzer language server](https://github.com/wgsl-analyzer/wgsl-analyzer).
 
 Based on [Konrad Bochnia's WGSL Tree-sitter grammar](https://github.com/szebniok/tree-sitter-wgsl),
 this extension improves upon the highlights to distinguish a wider variety of
@@ -14,11 +14,16 @@ extension.
 
 ## Installation
 
-To use this extension, manually install the LSP using the binary name
-"wgsl_analyzer", following the instructions in [the wgsl-analyzer README](https://github.com/wgsl-analyzer/wgsl-analyzer/blob/main/README.md).
+To use this extension, manually install the language server, following the
+instructions in [the wgsl-analyzer README](https://github.com/wgsl-analyzer/wgsl-analyzer/blob/main/README.md)
+exactly.
 
-Automatic installation of the LSP isn't currently possible, since the LSP
-repository doesn't publish binary artifacts in its releases.
+This extension expects to find a language server binary named `wgsl_analyzer`,
+_not_ `wgsl-analyzer`. This is the binary naming convention used by the language
+server maintainers.
+
+Automatic installation of the language server isn't currently possible, since
+the wgsl-analyzer repository doesn't publish binary artifacts in its releases.
 
 ## Configuration
 
@@ -42,8 +47,8 @@ Zed's WGSL settings can be configured like so:
 
 ### wgsl-analyzer
 
-wgsl-analyzer can be configured like any other LSP, using the language server
-ID `wgsl-analyzer`:
+wgsl-analyzer can be configured like any other language server, using the 
+LSP ID `wgsl-analyzer`:
 
 ```json
 {
