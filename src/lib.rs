@@ -3,8 +3,11 @@ use zed_extension_api::{self as zed, settings::LspSettings, LanguageServerId, Re
 struct WgslAnalyzer;
 
 impl WgslAnalyzer {
-    const BINARY_NAME: &'static str = "wgsl_analyzer";
     const LANGUAGE_SERVER_NAME: &'static str = "wgsl-analyzer";
+    
+    // The binary name as specified by the wgsl-analyzer installation guide
+    // uses an underscore separator.
+    const BINARY_NAME: &'static str = "wgsl_analyzer";
 }
 
 impl zed::Extension for WgslAnalyzer {
