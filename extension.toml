@@ -1,0 +1,17 @@
+id = "wgsl-analyzer"
+name = "WGSL"
+version = "0.0.1"
+schema_version = 1
+authors = ["Angus Morrison <angus@howtocodeit.com>"]
+description = """
+WGSL language support with rich syntax highlighting. Powered by the
+wgsl-analyzer LSP. See the README for configuration.
+"""
+
+[language_servers.wgsl-analyzer]
+name = "wgsl-analyzer"
+language = "WGSL"
+
+[grammars.wgsl]
+repository = "https://github.com/szebniok/tree-sitter-wgsl"
+commit = "40259f3c77ea856841a4e0c4c807705f3e4a2b65"
