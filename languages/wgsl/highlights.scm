@@ -5,7 +5,26 @@
 
 (bool_literal) @boolean
 
-["bool" "u32" "i32" "f16" "f32" "vec2" "vec3" "vec4"] @type.builtin
+[
+    "array"
+    "bool"
+    "u32"
+    "i32"
+    "f16"
+    "f32"
+    "vec2"
+    "vec3"
+    "vec4"
+    "mat2x2"
+    "mat2x3"
+    "mat2x4"
+    "mat3x2"
+    "mat3x3"
+    "mat3x4"
+    "mat4x2"
+    "mat4x3"
+    "mat4x4"
+] @type.builtin
 
 (identifier) @variable
 
@@ -64,7 +83,7 @@
 
 "return" @keyword.return
 
-[ "," "." ";"] @punctuation.delimiter
+["," "." ";"] @punctuation.delimiter
 
 ["(" ")" "[" "]" "{" "}"] @punctuation.bracket
 
