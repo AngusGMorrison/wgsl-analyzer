@@ -3,6 +3,7 @@ name = "WGSL"
 version = "0.0.1"
 schema_version = 1
 authors = ["Angus Morrison <angus@howtocodeit.com>"]
+repository = "https://github.com/AngusGMorrison/wgsl-analyzer"
 description = """
 WGSL language support with rich syntax highlighting. Powered by the
 wgsl-analyzer language server. See the README for configuration.
