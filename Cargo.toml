@@ -1,5 +1,5 @@
 [package]
-name = "zed_wgsl_analyzer"
+name = "wgsl_analyzer"
 version = "0.1.0"
 edition = "2021"
 
