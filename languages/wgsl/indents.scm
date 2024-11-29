@@ -1,4 +1,3 @@
-(_ "[" "]" @end) @indent
-(_ "{" "}" @end) @indent
-(_ "(" ")" @end) @indent
-("(" ")" @end) @indent
+("[" @start "]" @end) @indent
+("{" @start "}" @end) @indent
+("(" @start ")" @end) @indent
